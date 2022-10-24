@@ -25,3 +25,17 @@ for row in range(5):
             print_N[row][col]= "*"
 
  
+for i in range(5):
+    print(end="  ")
+    for j in range(5):
+        print(print_D[i][j], end=" ")
+    print(end="  ")
+    for j in range(5):
+        print(print_A[i][j], end=" ")
+    print(end="  ")
+    for j in range(5):
+        print(print_N[i][j], end=" ")
+    print(end="  ")
+    print()
+
+
