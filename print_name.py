@@ -18,4 +18,10 @@ for row in range(5):
         if ((col==0 or col==4) and row!=0) or ((row==0 or row==3) and (col>0 and col<4)):
             print_A[row][col]= "*"
 
+# code for N
+for row in range(5):
+    for col in range(5):
+        if ((col==0 or col==4) or row==col):
+            print_N[row][col]= "*"
 
+ 
